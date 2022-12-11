@@ -1,0 +1,25 @@
+
+.bg
+{
+    color: rgb(5, 0, 0);
+}
+
+.text
+{
+    display: flex;
+    justify-content: center;
+    color: rgb(17, 90, 154);
+}
+
+.form
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.button
+{
+    display: flex;
+    justify-content: center;
+}
