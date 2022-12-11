@@ -1,5 +1,4 @@
-import { Menu } from '@headlessui/react'
-
+import { Menu } from "@headlessui/react";
 
 function dropdown() {
   return (
@@ -9,7 +8,7 @@ function dropdown() {
         <Menu.Item>
           {({ active }) => (
             <a
-              className={`${active && 'bg-blue-500'}`}
+              className={`${active && "bg-blue-500"}`}
               href="/account-settings"
             >
               Account settings
@@ -19,7 +18,7 @@ function dropdown() {
         <Menu.Item>
           {({ active }) => (
             <a
-              className={`${active && 'bg-blue-500'}`}
+              className={`${active && "bg-blue-500"}`}
               href="/account-settings"
             >
               Documentation
@@ -31,8 +30,7 @@ function dropdown() {
         </Menu.Item>
       </Menu.Items>
     </Menu>
-  )
+  );
 }
-  
 
-export default dropdown
+export default dropdown;

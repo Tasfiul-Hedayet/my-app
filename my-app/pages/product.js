@@ -1,12 +1,9 @@
-
-
-function product ()  {
-    return (
+function product() {
+  return (
     <>
-    <h1>hello</h1>
-
+      <h1>hello</h1>
     </>
-    )
-  }
-  
-  export default product
+  );
+}
+
+export default product;
