@@ -1,7 +1,9 @@
-function product() {
+
+
+function test() {
   return (
-    <>
-      <article class="prose lg:prose-xl">
+    <div>
+        <article class="prose lg:prose-xl">
   <h1>Garlic bread with cheese: What the science tells us</h1>
   <p>
     For years parents have espoused the health benefits of eating garlic bread with cheese to their
@@ -13,8 +15,10 @@ function product() {
     springing up around the country.
   </p>
 </article>
-    </>
-  );
+
+<input type="checkbox" class="rounded text-pink-500" />
+    </div>
+  )
 }
 
-export default product;
+export default test
