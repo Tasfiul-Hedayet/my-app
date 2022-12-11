@@ -1,5 +1,5 @@
 import styles from "../styles/product.module.css";
-import Link from "next/link"
+
 
 
 function supplier ()  {

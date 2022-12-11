@@ -1,6 +1,7 @@
 import { Menu } from '@headlessui/react'
 
-function myDropdown() {
+
+function dropdown() {
   return (
     <Menu>
       <Menu.Button>More</Menu.Button>
@@ -32,3 +33,6 @@ function myDropdown() {
     </Menu>
   )
 }
+  
+
+export default dropdown
