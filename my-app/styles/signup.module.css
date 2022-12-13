@@ -1,26 +1,24 @@
-
-
-.bg
-{
-    color: rgb(5, 0, 0);
+.bg {
+  height: 660px;
+  background-color: rgba(7, 8, 6, 0.901);
+  margin: auto;
 }
 
-.text
-{
-    display: flex;
-    justify-content: center;
-    color: rgb(17, 90, 154);
+.text {
+  display: flex;
+  justify-content: center;
+  text-size-adjust: auto;
+  color: rgb(17, 90, 154);
 }
 
-.form
-{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(255, 255, 255);
+.form {
+  display: flex;
+  justify-content: center;
+  color: rgb(42, 91, 134);
 }
 
-.button
-{
-    display: flex;
-    justify-content: center;
+.button {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
 }
