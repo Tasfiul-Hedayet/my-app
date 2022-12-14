@@ -5,9 +5,9 @@ function supplier() {
     <>
       <div className={styles.bg}>
         <div className={styles.text}>
-          <h>Supplier Details</h>
+          <h1>Supplier Details</h1>
         </div>
-        <br />
+        <br/>
 
         <div className={styles.form}>
           <form action="/send-data-here" method="post">
