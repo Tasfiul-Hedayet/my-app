@@ -5,7 +5,7 @@ function product() {
     <>
       <div className={styles.bg}>
         <div className={styles.text}>
-          <h1>Customer Details</h1>
+          <h1>Product</h1>
         </div>
         <br />
 
