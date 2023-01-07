@@ -4,10 +4,8 @@
 }
 
 .bg h1{
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-top: 70px;
+    padding-left: 83vh;
     color: white;
     font-size: larger;
 }
@@ -18,8 +16,8 @@
 
 .bg button {
   border-radius: 20px;
-  margin-top: 50px;
-  margin-left: 120px;
+  margin-top: 120px;
+  margin-left: 200px;
   padding: 7px;
   min-height: 10px;
   min-width: 10px;
