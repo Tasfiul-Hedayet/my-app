@@ -1,9 +1,11 @@
-import styles from "../styles/signup.module.css";
+import styles from "../styles/customer.module.css";
+import Image from "next/image";
+import signup from "./signup";
 
 function customer() {
   return (
     <>
-      <div className={styles.bg}>
+    <div className={styles.bg}>
         <div className={styles.text}>
           <h1>Customer Details</h1>
         </div>
@@ -27,13 +29,12 @@ function customer() {
             <input type="text" id="last" name="last" />
             <br />
             <br />
-          </form>
-        </div>
-
-        <div className={styles.button}>
+            <div className={styles.button}>
           <button>Submit</button>
         </div>
-      </div>
+          </form>
+        </div>
+   </div>
     </>
   );
 }

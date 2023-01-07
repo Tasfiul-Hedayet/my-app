@@ -1,4 +1,5 @@
-import styles from "../styles/signup.module.css";
+import styles from "../styles/supplier.module.css";
+import Link from "next/link";
 
 function supplier() {
   return (
@@ -11,37 +12,32 @@ function supplier() {
 
         <div className={styles.form}>
           <form action="/send-data-here" method="post">
-            <label for="first">Name </label>
-            <input type="text" id="first" name="first" />
+            <label for="sname">Name </label>
+            <input type="text" id="sname" name="sname" />
             <br />
             <br />
-            <label for="last">Address </label>
-            <input type="text" id="last" name="last" />
+            <label for="address">Address </label>
+            <input type="text" id="address" name="address" />
             <br />
             <br />
-            <label for="last">Phone Number </label>
-            <input type="text" id="last" name="last" />
+            <label for="phone no">Phone Number </label>
+            <input type="text" id="phone no" name="phone no" />
             <br />
             <br />
-            <label for="last">Description </label>
-            <input type="text" id="last" name="last" />
+            <label for="description">Description </label>
+            <input type="text" id="description" name="description" />
             <br />
             <br />
             <label for="product">Product </label>
-            <select id="Product" name="product">
-              <option value="Pen">Pen </option>
-              <option value="Glass">Glass </option>
-              <option value="Glass">Paper </option>
-              <option value="Glass">Bottle </option>
-            </select>
+            <input type="text" id="product" name="product" />
             <br />
             <br />
+            <div className={styles.button}>
+          <button> <Link href={"/stext"}>Submit</Link> </button>
+        </div>
           </form>
         </div>
 
-        <div className={styles.button}>
-          <button> Submit </button>
-        </div>
       </div>
     </>
   );

@@ -1,4 +1,5 @@
-import styles from "../styles/signup.module.css";
+import styles from "../styles/product.module.css";
+import Link from "next/link";
 
 function product() {
   return (
@@ -12,42 +13,33 @@ function product() {
         <div className={styles.form}>
           <form action="/send-data-here" method="post">
             <label for="product">Product Category </label>
-            <select id="Product" name="product">
-              <option value="Pen">Pen </option>
-              <option value="Glass">Glass </option>
-              <option value="Glass">Paper </option>
-              <option value="Glass">Bottle </option>
-            </select>
+            <input type="text" id="category" name="category" />
             <br />
             <br />
 
             <label for="product">Sub Category </label>
-            <select id="Product" name="product">
-              <option value="Pen">Pen </option>
-              <option value="Glass">Glass </option>
-              <option value="Glass">Paper </option>
-              <option value="Glass">Bottle </option>
-            </select>
+            <input type="text" id=" sub category" name="sub category" />
             <br />
             <br />
 
-            <label for="first">Brand </label>
-            <input type="text" id="first" name="first" />
+            <label for="brand">Brand </label>
+            <input type="text" id="brand" name="brand" />
             <br />
             <br />
 
-            <label for="first">Product Name </label>
-            <input type="text" id="first" name="first" />
+            <label for="pname">Product Name </label>
+            <input type="text" id="pname" name="pname" />
             <br />
             <br />
 
-            <label for="first">Unit Measure </label>
-            <input type="text" id="first" name="first" />
+            <label for="unit">Unit Measure </label>
+            <input type="text" id="unit" name="unit" />
             <br />
             <br />
-
             <div className={styles.button}>
-              <button>Submit</button>
+              <button>
+                <Link href="/signup">Submit</Link>
+              </button>
             </div>
           </form>
         </div>
