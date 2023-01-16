@@ -38,7 +38,7 @@ function product() {
             <br />
             <div className={styles.button}>
               <button>
-                <Link href="/signup">Submit</Link>
+                <Link href="/stext">Submit</Link>
               </button>
             </div>
           </form>

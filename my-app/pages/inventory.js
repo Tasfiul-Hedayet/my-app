@@ -2,6 +2,7 @@
 import styles from "../styles/inventory.module.css";
 
 function inventory ()  {
+  
   return (
     <>
     <div className={styles.bg}>
